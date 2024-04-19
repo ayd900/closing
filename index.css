@@ -71,7 +71,7 @@ td,th,tr {
     max-height: var(--headerheight);
     min-height: var(--headerheight);
     background-color: white;
-    font-size: 0.8em;
+    font-size: 1em;
     color: var(--backgroundclr);
     letter-spacing: 1em;
 }
