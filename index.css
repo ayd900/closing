@@ -74,6 +74,7 @@ td,th,tr {
     font-size: 1em;
     color: var(--backgroundclr);
     letter-spacing: 1em;
+    border-bottom: 2px solid var(--backgroundclr);
 }
 
 .header-element:hover {
