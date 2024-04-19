@@ -72,7 +72,7 @@ td,th,tr {
     background-color: #76bc21;
     font-size: 0.8em;
     color: var(--backgroundclr);
-    letter-spacing: 3em;
+    letter-spacing: 1em;
 }
 
 .header-element:hover {
