@@ -70,7 +70,7 @@ td,th,tr {
     align-items: center;
     max-height: var(--headerheight);
     min-height: var(--headerheight);
-    background-color: #76bc21;
+    background-color: white;
     font-size: 0.8em;
     color: var(--backgroundclr);
     letter-spacing: 1em;
