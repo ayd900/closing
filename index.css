@@ -71,6 +71,7 @@ td,th,tr {
     max-height: var(--headerheight);
     background-color: #76bc21;
     font-size: 0.8em;
+    color: black;
 }
 
 .header-element:hover {
