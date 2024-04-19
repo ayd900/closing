@@ -68,7 +68,7 @@ td,th,tr {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: calc(var(--headerheight)/2);
+    max-height: calc(var(--headerheight));
     background-color: #5B6C42;
     font-size: 0.8em;
 }
