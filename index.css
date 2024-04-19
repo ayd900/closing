@@ -69,6 +69,7 @@ td,th,tr {
     justify-content: center;
     align-items: center;
     max-height: var(--headerheight);
+    min-height: var(--headerheight);
     background-color: #76bc21;
     font-size: 0.8em;
     color: var(--backgroundclr);
