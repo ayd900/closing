@@ -23,20 +23,6 @@
     cursor: pointer;
 }
 
-table {
-    margin: auto;
-}
-
-td,th,tr {
-    text-align: center;
-    padding: 1rem;
-    border: 2px solid black;
-}
-
-.top-cell {
-    border-radius: 12px 0px 0px 0px;
-}
-
 @font-face {
     font-family: jsportfont;
     src: url("/font/Jsport-Regular.otf");
@@ -74,6 +60,7 @@ td,th,tr {
     color: var(--backgroundclr);
     letter-spacing: 0.7em;
     border-bottom: 2px solid var(--backgroundclr);
+    text-align: center;
 }
 
 .header-element:hover {
@@ -104,6 +91,10 @@ header {
     background-color: var(--backgroundclr);
     max-height: var(--headerheight);
     min-height: var(--headerheight);
+}
+
+#logo {
+    max-width: 200px;
 }
 
 #langselect {
@@ -172,4 +163,19 @@ header {
 
 #closecontactarea:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 617px) {
+        #pre-header {
+            font-size: 0.8em;
+        }
+
+        header {
+            flex-wrap: wrap;
+        }
+
+        #logo {
+            flex-grow: 1;
+            flex-basis: 100%;
+        }
 }
