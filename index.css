@@ -5,6 +5,7 @@
 }
 
 .infoSection {
+    font-size: 0.8em;
     height: 30px;
     display: flex;
     justify-content: center;
