@@ -471,8 +471,3 @@ body {
         grid-row: 1;
     }
 }
-
-.phoneimg, .phoneimgact {
-    display: "none";
-}
-
