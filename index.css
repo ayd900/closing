@@ -57,7 +57,7 @@
     min-height: var(--headerheight);
     background-color: white;
     font-size: 1.1em;
-    color: red;
+    color: black;
     letter-spacing: 0.7em;
     border-bottom: 2px solid var(--backgroundclr);
     text-align: center;
