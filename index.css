@@ -443,5 +443,14 @@ body {
     .promotionTextHeader {
         font-size: 5em;
     }    
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        background-color: var(--backgroundclr);
+        max-height: var(--headerheight);
+        min-height: var(--headerheight);
+    }
 }
 
