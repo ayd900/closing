@@ -339,6 +339,7 @@ body {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
+    color: red;
 }
 
 @keyframes promotionText {
@@ -434,7 +435,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .rightPartPromo {
-        overflow-x: hidden;
+        display: none;
     }
 }
 
