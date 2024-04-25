@@ -423,10 +423,16 @@ body {
         }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1234px) {
     .mainArea {
         margin-top: 30px;
         flex-direction: column;
+    }
+
+    .leftPartPromo {
+        flex-direction: row;
+        column-gap: 0;
+        flex-wrap: wrap;
     }
 
     body {
@@ -435,9 +441,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 802px) {
     .rightPartPromo {
         display: none;
+    }
+
+    .leftPartPromo {
+        flex-direction: column;
     }
 }
 
@@ -469,5 +479,48 @@ body {
     #langselect {
         grid-column: 3;
         grid-row: 1;
+    }
+}
+
+.puma {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    animation-name: pumaOutAnimation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.rm {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    animation-name: adidasOutAnimation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes adidasOutAnimation {
+    from {
+        opacity: 0;
+        left: 60%;
+    }
+    to {
+        opacity: 1;
+        left: 75%;
+    }
+}
+
+@keyframes pumaOutAnimation {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+    to {
+        opacity: 1;
+        left: -100px;
     }
 }
