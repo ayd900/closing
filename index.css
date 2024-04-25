@@ -73,11 +73,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     color: black;
     height: calc(100vh - 16px);
     max-width: 100vw;
-    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 header {
@@ -225,7 +228,6 @@ body {
     flex-direction: column;
     border: 2px solid gray;
     justify-content: center;
-    height: 600px;
 }
 
 @keyframes slideInBall {
@@ -264,7 +266,7 @@ body {
 
 .rightPartPromo {
     width: 600px;
-    height: 600px;
+    height: 550px;
     border: 2px solid blue;
     position: relative;
 }
@@ -329,6 +331,25 @@ body {
     animation-delay: 0.8s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+
+.promotionTextHeader {
+    text-align: center;
+    font-size: 7em;
+    margin: auto;
+    animation-name: promotionText;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes promotionText {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes ballsUpDown {
