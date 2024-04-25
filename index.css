@@ -153,7 +153,6 @@ header {
 }
 
 #closecontactarea {
-    border: none;
     outline: none;
     background-color: transparent;
     position: absolute;
@@ -189,13 +188,11 @@ body {
 
 .ballContainer {
     position: relative;
-    border: 2px solid red;
     width: 100px;
     height: 70px;
 }
 
 .textContainer {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,6 +215,10 @@ body {
     margin-top: 50px;
 }
 
+.titlePromoContainer {
+    border-bottom: 2px solid black;
+}
+
 .promoItem {
     display: flex;
 }
@@ -226,7 +227,6 @@ body {
     display: flex;
     gap: 20px;
     flex-direction: column;
-    border: 2px solid gray;
     justify-content: center;
 }
 
@@ -256,7 +256,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
     column-gap: 30px;
 }
 
@@ -267,7 +266,6 @@ body {
 .rightPartPromo {
     width: 600px;
     height: 550px;
-    border: 2px solid blue;
     position: relative;
 }
 
@@ -424,6 +422,7 @@ body {
 
 @media only screen and (max-width: 950px) {
     .mainArea {
+        margin-top: 30px;
         flex-direction: column;
     }
 
