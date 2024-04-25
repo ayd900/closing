@@ -8,6 +8,10 @@
     display: "none";
 }
 
+.downPng img {
+    display: "none";
+}
+
 .infoSection {
     letter-spacing: 5px;
     font-weight: 100;
