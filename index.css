@@ -4,6 +4,10 @@
     --grasspreheader: #5B6C42;
 }
 
+.infoSection {
+    border: 2px solid green;
+}
+
 #ctctbtn {
     margin-top: 5%;
     opacity: 1;
