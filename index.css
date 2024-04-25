@@ -433,9 +433,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .mainArea {
+    .rightPartPromo {
+        overflow-x: hidden;
         border: 2px solid green;
-        max-width: 100vw;
     }
 }
 
