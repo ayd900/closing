@@ -123,15 +123,6 @@ header {
     color: white;
 }
 
-#contactbutton {
-    transition: color 300ms ease-in-out;
-}
-
-#contactbutton:hover {
-    color: var(--grasspreheader);
-    transition: color 300ms ease-in-out;
-}
-
 .top-cell-day {
     position: relative;
 }
