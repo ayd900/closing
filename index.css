@@ -5,7 +5,8 @@
 }
 
 .infoSection {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 100;
     margin: 0;
     font-size: 1em;
     height: 30px;
