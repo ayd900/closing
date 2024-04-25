@@ -28,12 +28,6 @@
     transition: border-color 0.2s ease-in-out;
 }
 
-#ctctbtn:hover {
-    border-color: var(--backgroundclr);
-    transition: border-color 0.2s ease-in-out;
-    cursor: pointer;
-}
-
 @font-face {
     font-family: jsportfont;
     src: url("/font/Jsport-Regular.otf");
