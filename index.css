@@ -452,5 +452,17 @@ body {
         max-height: var(--headerheight);
         min-height: var(--headerheight);
     }
+
+    header img {
+        grid-column: 2;
+    }    
+
+    #contactbutton {
+        grid-column: 1;
+    }
+
+    #langselect {
+        grid-column: 3;
+    }
 }
 
