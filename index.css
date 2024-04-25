@@ -433,8 +433,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
+    .mainArea {
+        border: 2px solid green;
+        max-width: 100vw;
     }
 }
 
