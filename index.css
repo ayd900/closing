@@ -4,10 +4,6 @@
     --grasspreheader: #5B6C42;
 }
 
-.phoneimg {
-    display: "none";
-}
-
 .infoSection {
     letter-spacing: 5px;
     font-weight: 100;
@@ -474,5 +470,9 @@ body {
         grid-column: 3;
         grid-row: 1;
     }
+}
+
+.phoneimg, .phoneimgact {
+    display: "none";
 }
 
