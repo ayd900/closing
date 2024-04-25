@@ -439,4 +439,9 @@ body {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .promotionTextHeader {
+        font-size: 4em;
+    }    
+}
 
