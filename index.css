@@ -456,14 +456,17 @@ body {
 
     header img {
         grid-column: 2;
+        grid-row: 1;
     }    
 
     #contactbutton {
         grid-column: 1;
+        grid-row: 1;
     }
 
     #langselect {
         grid-column: 3;
+        grid-row: 1;
     }
 }
 
