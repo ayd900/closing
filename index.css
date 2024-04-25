@@ -558,4 +558,8 @@ a:active {
     color: white;
 }
 
+.selectedLanguage {
+    border-bottom: 2px solid white;
+}
+
 
