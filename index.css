@@ -171,7 +171,7 @@ body {
 
 .ball {
     border: 2px solid black;
-    height: 70px;
+    height: 100px;
     aspect-ratio: 1;
     border-radius: 50%;
     display: flex;
