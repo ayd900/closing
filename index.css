@@ -228,7 +228,7 @@ body {
 .leftPartPromo {
     display: flex;
     gap: 20px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -256,9 +256,10 @@ body {
 
 .mainArea {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    column-gap: 30px;
+    gap: 30px;
 }
 
 .redtextpromo {
