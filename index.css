@@ -453,6 +453,9 @@ body {
     body {
         overflow: clip;
     }
+    .rightPartPromo {
+        overflow: clip;
+    }
 
 }
 
