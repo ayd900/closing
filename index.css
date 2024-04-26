@@ -450,8 +450,9 @@ body {
     .leftPartPromo {
         flex-direction: row;
     }
-    .rightPartPromo {
+    body {
         overflow: clip;
+        max-width: 100vw;
     }
 
 }
