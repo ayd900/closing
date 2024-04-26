@@ -442,19 +442,15 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .rightPartPromo {
-        max-width: 100%;
-        overflow: clip;
-    }
-
     .shoearc {
         max-width: 100%;
     }
 }
-@media only screen and (max-width: 802px) {
+@media only screen and (max-width: 804px) {
     .leftPartPromo {
         flex-direction: row;
     }
+
 }
 
 @media only screen and (max-width: 450px) {
