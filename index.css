@@ -450,6 +450,9 @@ body {
     .leftPartPromo {
         flex-direction: row;
     }
+    body {
+        overflow: clip;
+    }
 
 }
 
