@@ -9,13 +9,12 @@
     position: relative;
 }
 
-.textDiv::after {
-    content: "ASD";
+.fa-info-circle {
     font-size: 0.25em;
     position: absolute;
     top: -20px;
     left: 0px;
-}    
+ }   
 
 .red {
     color: #FF0000;
