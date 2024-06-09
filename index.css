@@ -12,6 +12,10 @@
     animation-fill-mode: forwards;
 }
 
+.textDiv::after {
+    content: "ASD";
+}    
+
 .red {
     color: #FF0000;
 }
