@@ -10,16 +10,17 @@
 }
 
 .fa-info-circle {
+    position: relative;
     font-size: 0.25em;
     position: absolute;
     top: 0px;
     right: -20px;
     scale: 0.75;
- }   
+ }
 
-.fa-info-circle:hover {
-    font-size: 1em;
- }  
+.fa-info-circle::after { 
+    content: "Item 1\nItem 2\nItem 3";
+}  
 
 .red {
     color: #FF0000;
