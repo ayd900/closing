@@ -19,8 +19,9 @@
  }
 
 .fa-info-circle::after { 
-    content: "Item 1\AItem 2\AItem 3"; /* Use \A for newline */
-    white-space: pre-line; /* This preserves the line breaks */
+    content: "Item 1\AItem 2\AItem 3";
+    white-space: pre-line;
+    border: 2px solid black;
     display: block;
     margin-top: 10px;
 }  
