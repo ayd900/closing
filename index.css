@@ -341,7 +341,7 @@ body {
 
 .promotionTextHeader {
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
     margin: auto;
     animation-name: promotionText;
     animation-duration: 2s;
