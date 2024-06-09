@@ -18,11 +18,15 @@
     scale: 0.75;
  }
 
+.fa-info-circle:hover ::after { 
+    display: block;
+}   
+
 .fa-info-circle::after { 
     content: "· Pas remboursables\A· Pas echangeable\A· Pas cumulables\A· Pas sur l'Euro24 et la Copa America\A· L'article gratuit est celui avec le prix le plus bas";
     white-space: pre-line;
     border: 2px solid black;
-    display: block;
+    display: hidden;
     padding: 10px;
     max-width: 250px;
     margin-top: 10px;
