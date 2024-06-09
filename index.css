@@ -6,10 +6,6 @@
 
 .textDiv {
     font-size: 5em;
-    animation-name: slideInBall;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     position: relative;
 }
 
@@ -18,6 +14,7 @@
     font-size: 1em;
     position: absolute;
     top: 0px;
+    left: 0px;
 }    
 
 .red {
