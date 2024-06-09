@@ -6,6 +6,7 @@
 
 .textDiv {
     font-size: 5em;
+    border: 2px solid black;
     position: relative;
 }
 
