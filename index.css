@@ -4,6 +4,10 @@
     --grasspreheader: #5B6C42;
 }
 
+.red {
+    color=red;
+}
+
 .infoSection {
     letter-spacing: 5px;
     font-weight: 100;
