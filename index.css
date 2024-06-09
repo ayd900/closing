@@ -24,8 +24,9 @@
     border: 2px solid black;
     display: block;
     padding: 10px;
-    max-width: 250px;
+    max-width: 300px;
     margin-top: 10px;
+    font-size: 0.5em;
 }
 
 .fa-info-circle::after { 
