@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+#specialBall {
+    border: 0px solid black;
+}
+
 #ctctbtn {
     margin-top: 5%;
     opacity: 1;
