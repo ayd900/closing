@@ -19,7 +19,8 @@
  }
 
 .fa-info-circle:hover {
-    right: -300px;
+    top: -20px;
+    right: -290px;
  }
 
 .fa-info-circle:hover::after {
