@@ -5,7 +5,7 @@
 }
 
 .red {
-    color=red;
+    color: #FF0000;
 }
 
 .infoSection {
@@ -21,7 +21,6 @@
 
 #specialBall {
     border: 0px solid black;
-    color: #FF0000;
 }
 
 #ctctbtn {
