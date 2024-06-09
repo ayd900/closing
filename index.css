@@ -12,39 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-
-.fa-info-circle {
-    position: relative;
-    font-size: 0.25em;
-    position: absolute;
-    top: -10px;
-    right: -30px;
-    scale: 0.75;
- }
-
-.fa-info-circle:hover {
-    top: -30px;
-    right: -295px;
- }
-
-.fa-info-circle:hover::after {
-    content: "· Pas remboursables\A· Pas echangeable\A· Pas cumulables\A· Pas sur l'Euro24 et la Copa America\A· L'article gratuit est celui avec le prix le plus bas";
-    white-space: pre-line;
-    border: 2px solid black;
-    display: block;
-    padding: 10px;
-    max-width: 300px;
-    margin-top: 10px;
-    font-size: 1em;
-}
-
-.fa-info-circle::after { 
-    content: "";
-}  
 
 .red {
     color: #FF0000;
+    position: relative;
 }
 
 .infoSection {
@@ -616,4 +589,30 @@ a:active {
     border-bottom: 2px solid white;
 }
 
+.fa-circle-info {
+    border-radius: 50%;
+    font-size: 0.1em;
+    scale: 0.2em;
+    position: absolute;
+    top: 20px;
+}
+
+.fa-circle-info:hover .condition {
+    display: block;
+}
+
+.condition {
+    position: absolute;
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    max-width: 500px;
+    display: none;
+}
+
+
+
+#black {
+    color: black;
+}
 
