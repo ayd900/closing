@@ -227,6 +227,8 @@ body {
 
 .promoItem {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftPartPromo {
