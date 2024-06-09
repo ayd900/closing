@@ -195,7 +195,11 @@ body {
 }
 
 .ballContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
+    height: 250px;
     border: 5px solid black;
 }
 
