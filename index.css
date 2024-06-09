@@ -13,8 +13,8 @@
     position: relative;
     font-size: 0.25em;
     position: absolute;
-    top: 0px;
-    right: -230px;
+    top: -10px;
+    right: -240px;
     scale: 0.75;
  }
 
