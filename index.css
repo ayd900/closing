@@ -17,6 +17,10 @@
     scale: 0.75;
  }   
 
+.fa-info-circle:hover {
+    font-size: 1em;
+ }  
+
 .red {
     color: #FF0000;
 }
