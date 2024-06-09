@@ -195,7 +195,7 @@ body {
 }
 
 .ballContainer {
-    position: relative;
+    width: 500px;
 }
 
 .textContainer {
