@@ -19,7 +19,7 @@
  }
 
 .fa-info-circle::after { 
-    content: "Item 1\nItem 2\nItem 3";
+    content: "Item 1\AItem 2\AItem 3";
 }  
 
 .red {
